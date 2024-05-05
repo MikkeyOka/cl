@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Bebas+Neue&display=swap');
+*{
+    background-color: black;
+    padding: 0;
+    margin: 0;
+   
+}
+.oi{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    justify-content: center;
+    font-family: "Bebas Neue", sans-serif;
+margin-left: 55px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+  margin-right: 55px;
+  margin-top: 20px;
+    font-size: 50px;
+    background-color: rgba(44, 44, 44, 0.486);
+    border-radius: 100px;
+    height: 30px;
+    
+}
+/*
+.img{
+    border: 5px solid rgb(255, 255, 255);
+    margin-left: 30px;
+    margin-right: 1020px;
+    transition: transform 0.5s;
+    color: rgb(255, 255, 255); 
+    margin-left: 30px;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+.img:hover{
+    transform: scale(0.80);
+}
+*/
+nav{
+    color: rgb(255, 0, 0);
+    text-align: center;
+    justify-content: center;
+    font-family: "Bebas Neue", sans-serif;
+    padding-top: 30px;
+    margin-left: 50px;
+  margin-right: 55px;
+  margin-top: 20px;
+    font-size: 50px;
+    height: 30px;
+}
+li::marker{
+   color: rgb(0, 0, 0);
+}
+a{
+    color: rgb(255, 255, 255);
+    animation: changeColor 5s infinite;
+}
+@-webkit-keyframes changeColor {
+    0%   {color: rgb(255, 0, 200);}
+    25%  {color: rgb(255, 238, 0);}
+    50%  {color: rgb(153, 0, 255);}
+    100% {color: rgb(0, 102, 255);}
+  }
+  .oo{
+    color: rgb(255, 255, 255);
+    font-family: "Bebas Neue", sans-serif;
+    padding-top: 30px;
+    font-size: 20px;
+    margin-right: 55px;
+    margin-left: 50px;
+  }
